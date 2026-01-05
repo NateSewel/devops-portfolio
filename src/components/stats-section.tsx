@@ -7,8 +7,8 @@ import { BriefcaseIcon, GraduationCapIcon, CodeIcon, AwardIcon } from 'lucide-re
 export function StatsSection() {
 	const stats = [
 		{
-			label: 'Years Experience',
-			value: new Date().getFullYear() - 2020,
+			label: 'Months Experience',
+			value: new Date().getFullYear() - 2022,
 			icon: BriefcaseIcon,
 			description: 'Professional experience'
 		},
@@ -37,7 +37,10 @@ export function StatsSection() {
 			{stats.map((stat, index) => {
 				const Icon = stat.icon
 				return (
-					<Card key={index} className='text-center transition-all duration-300 hover:shadow-lg hover:scale-105'>
+					<Card
+						key={index}
+						className='text-center transition-all duration-300 hover:shadow-lg hover:scale-105'
+					>
 						<CardContent className='pt-6 pb-4'>
 							<Icon className='size-8 mx-auto mb-2 text-primary' />
 							<div className='text-3xl font-bold mb-1'>{stat.value}+</div>
@@ -50,4 +53,3 @@ export function StatsSection() {
 		</div>
 	)
 }
-
