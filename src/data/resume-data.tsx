@@ -241,9 +241,9 @@ export const RESUME_DATA = {
 		},
 		{
 			title: 'From Docker to Kubernetes',
-			techStack: ['Docker', 'Kubernetes', 'Learning'],
+			techStack: ['Docker', 'Kubernetes', 'AWS'],
 			description:
-				'A hands-on project that demonstrates the journey of containerizing applications using Docker and orchestrating them with Kubernetes. This project covers building Docker images, creating Kubernetes manifests, and deploying applications to a local Kubernetes cluster using Kubeadm.',
+				'A hands-on project that demonstrates the journey of containerizing applications using Docker and orchestrating them with Kubernetes. This project covers building Docker images, creating Kubernetes manifests, and deploying applications to Kubernetes cluster using Kubeadm.',
 			link: {
 				label: 'github.com/NateSewel/From-Docker-to-Kubernetes',
 				href: 'https://github.com/NateSewel/aws3-tier-webapp-kubernetes'
