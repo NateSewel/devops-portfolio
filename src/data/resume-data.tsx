@@ -218,26 +218,37 @@ export const RESUME_DATA = {
 	],
 	projects: [
 		{
+			title: 'Azure CI/CD to AKS with GitOps',
+			techStack: ['AzureDevOps', 'AKS', 'GitOps'],
+			description:
+				'A complete CI/CD pipeline setup using Azure DevOps to automate the deployment of containerized applications to Azure Kubernetes Service (AKS) clusters, following GitOps principles for streamlined and reliable application delivery.',
+			link: {
+				label: 'https://github.com/NateSewel/azureci-cd-aks-gitops',
+				href: 'https://github.com/NateSewel/azureci-cd-aks-gitops'
+			},
+			isNew: true
+		},
+		{
+			title: 'Github CI/CD pipeline for Marvin Application',
+			techStack: ['GitHub Actions', 'Docker', 'Mavin'],
+			description:
+				'A robust CI/CD pipeline using GitHub Actions to automate the build, test, and deployment processes for the Marvin application. This project focuses on containerizing the application with Docker and ensuring seamless integration and delivery through automated workflows.',
+			link: {
+				label: 'https://github.com/NateSewel/github-action-cicd-mavin-app',
+				href: 'https://github.com/NateSewel/github-action-cicd-mavin-app'
+			},
+			isNew: true
+		},
+		{
 			title: 'From Docker to Kubernetes',
 			techStack: ['Docker', 'Kubernetes', 'Learning'],
 			description:
-				'A hands-on learning repository to help you master containerization and orchestration — starting with Docker fundamentals and progressing to real-world Kubernetes deployments. Ideal for developers, DevOps engineers, and learners building modern cloud-native workflows.',
+				'A hands-on project that demonstrates the journey of containerizing applications using Docker and orchestrating them with Kubernetes. This project covers building Docker images, creating Kubernetes manifests, and deploying applications to a local Kubernetes cluster using Kubeadm.',
 			link: {
 				label: 'github.com/NateSewel/From-Docker-to-Kubernetes',
 				href: 'https://github.com/NateSewel/aws3-tier-webapp-kubernetes'
 			},
 			isNew: true
 		},
-		{
-			title: 'Home of Best DevOps Resources',
-			techStack: ['DevOps', 'Resources', 'UI'],
-			description:
-				'A curated collection of the "Home of Best DevOps resources" — with live UI demos and GitHub source links.',
-			link: {
-				label: 'github.com/NotHarshhaa/home-of-best-devops-resources',
-				href: 'https://github.com/NotHarshhaa/home-of-best-devops-resources'
-			},
-			isNew: true
-		}
 	]
 }
