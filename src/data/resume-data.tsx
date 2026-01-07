@@ -92,7 +92,7 @@ export const RESUME_DATA = {
 					start: 'Sep, 2025',
 					end: 'Present',
 					description: [
-						'Engineered 6 automated CI/CD pipelines using Jenkins and GitHub Actions, cutting deployment time from 45 minutes to 12 minutes (73% reduction) and enabling daily releases versus previous 2x weekly cadence.',
+						'Engineered 6 automated CI/CD pipelines using Azure DevOps and GitOps, cutting deployment time from 45 minutes to 12 minutes (73% reduction) and enabling daily releases versus previous 2x weekly cadence.',
 						'Orchestrated 2 Kubernetes clusters (staging + production) hosting 15 containerized applications with 40+ pods, achieving 99.2% uptime across 200+ deployments in 4-month period.',
 						'Optimized Docker container builds through multi-stage configurations, achieving 35% reduction in build times and standardizing containerization for 8 microservices.',
 						'Achieved 98.3% pipeline success rate across all deployments while collaborating with 6-person development team to resolve infrastructure bottlenecks.'
