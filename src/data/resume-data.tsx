@@ -252,5 +252,16 @@ export const RESUME_DATA = {
 			},
 			isNew: true
 		},
+		{
+			title: 'Multi-AZ VPC with public/private subnets',
+			techStack: ['Terraform', 'Github Actions', 'AWS', 'VPC', 'Linux', 'Nginx'],
+			description:
+				'A multi-AZ VPC with public/private subnets, implemented using Terraform and deployed with GitHub Actions. This project demonstrates the setup of a secure and scalable network infrastructure on AWS.',
+			link: {
+				label: 'https://github.com/NateSewel/multi-az-vpc',
+				href: 'https://github.com/NateSewel/multi-az-vpc'
+			},
+			isNew: true
+		}
 	]
 }
