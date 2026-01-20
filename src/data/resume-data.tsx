@@ -262,6 +262,17 @@ export const RESUME_DATA = {
 				href: 'https://github.com/NateSewel/multi-az-vpc'
 			},
 			isNew: true
+		},
+		{
+			title: 'K8s Cluster with KOps on AWS',
+			techStack: ['Terraform', 'S3', 'AWS', 'KOps', 'Kubernetes', 'Python', 'FastAPI'],
+			description:
+				'This project provisions a production-grade Kubernetes cluster using KOps on AWS and deploys a containerized FastAPI application, demonstrating infrastructure as code with Terraform and application deployment on Kubernetes.',
+			link: {
+				label: 'https://github.com/NateSewel/k8s-cluster-kops-aws',
+				href: 'https://github.com/NateSewel/k8s-cluster-kops-aws'
+			},
+			isNew: true
 		}
 	]
 }
