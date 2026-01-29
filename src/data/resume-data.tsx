@@ -273,6 +273,47 @@ export const RESUME_DATA = {
 				href: 'https://github.com/NateSewel/k8s-cluster-kops-aws'
 			},
 			isNew: true
+		},
+		{
+			title: 'Production-grade 3-tier web application',
+			techStack: [
+				'Terraform',
+				'S3',
+				'AWS',
+				'PostgreSQL',
+				'Amazon SQS',
+				'Redis',
+				'GitHub Actions',
+				'Bash',
+				'FastAPI'
+			],
+			description:
+				'A production-grade 3-tier web application architecture deployed on AWS using Terraform. This project includes a FastAPI backend, PostgreSQL database, Redis caching, and Amazon SQS for messaging, all automated through GitHub Actions.',
+			link: {
+				label: 'https://github.com/NateSewel/ICP-9QGJ27-2026-REPO/tree/main/week-3',
+				href: 'https://github.com/NateSewel/ICP-9QGJ27-2026-REPO/tree/main/week-3'
+			},
+			isNew: true
+		},
+		{
+			title: 'Production-grade 2-tier web application',
+			techStack: [
+				'S3',
+				'AWS',
+				'EC2',
+				'Apache',
+				'Nginx',
+				'SSL/TLS',
+				'Bash',
+				'FastAPI'
+			],
+			description:
+				'A production-grade 2-tier web application architecture deployed on AWS. This project features a FastAPI backend served through Nginx and Apache on EC2 instances, with secure SSL/TLS configurations and automated deployment scripts using Bash.',
+			link: {
+				label: 'https://github.com/NateSewel/2-tier-web-app',
+				href: 'https://github.com/NateSewel/2-tier-web-app'
+			},
+			isNew: true
 		}
 	]
 }
