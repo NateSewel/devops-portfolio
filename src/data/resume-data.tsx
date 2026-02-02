@@ -83,19 +83,19 @@ export const RESUME_DATA = {
 	],
 	work: [
 		{
-			company: 'Startup Labs',
+			company: 'Startup Labs & InternCareerPath',
 			link: 'https://www.startuplab.ng',
-			badges: ['Onsite'],
+			badges: ['Remote'],
 			jobs: [
 				{
 					title: 'DevOps Engineer',
 					start: 'Sep, 2025',
 					end: 'Present',
 					description: [
-						'Engineered 6 automated CI/CD pipelines using Azure DevOps and GitOps, cutting deployment time from 45 minutes to 12 minutes (73% reduction) and enabling daily releases versus previous 2x weekly cadence.',
-						'Orchestrated 2 Kubernetes clusters (staging + production) hosting 15 containerized applications with 40+ pods, achieving 99.2% uptime across 200+ deployments in 4-month period.',
-						'Optimized Docker container builds through multi-stage configurations, achieving 35% reduction in build times and standardizing containerization for 8 microservices.',
-						'Achieved 98.3% pipeline success rate across all deployments while collaborating with 6-person development team to resolve infrastructure bottlenecks.'
+						'Built 6 automated CI/CD pipelines using Azure DevOps and GitOps, and automated testing to eliminate manual deployment delays, reducing deployment time by 73% and increase release frequency from 2x weekly to daily.',
+						'Managed Kubernetes clusters (staging + production) running 2 microservices and 8 pods, maintaining 99.2% uptime across 20+ deployments.',
+						'Optimized Docker container builds through multi-stage configurations, achieving 35% reduction in build times and standardizing containerization.',
+						'Implemented automated validation, linting, and rollback logic, achieving 98% success rate.'
 					]
 				}
 			]
@@ -172,7 +172,6 @@ export const RESUME_DATA = {
 		'Ansible',
 		'Linux',
 		'Ubuntu',
-		'CentOS',
 		'CI/CD',
 		'Jenkins',
 		'GitHub Actions',
@@ -182,7 +181,6 @@ export const RESUME_DATA = {
 		'Git',
 		'Shell Scripting',
 		'Bash',
-		'GitLab',
 		'Python',
 		'YAML',
 		'Monitoring',
@@ -216,7 +214,9 @@ export const RESUME_DATA = {
 		'HashiCorp Vault',
 		'Agile',
 		'DevOps Practices',
-		'VS Code'
+		'Microservices',
+		'Serverless Computing',
+		'API Integration'
 	],
 	projects: [
 		{
@@ -297,16 +297,7 @@ export const RESUME_DATA = {
 		},
 		{
 			title: 'Production-grade 2-tier web application',
-			techStack: [
-				'S3',
-				'AWS',
-				'EC2',
-				'Apache',
-				'Nginx',
-				'SSL/TLS',
-				'Bash',
-				'FastAPI'
-			],
+			techStack: ['S3', 'AWS', 'EC2', 'Apache', 'Nginx', 'SSL/TLS', 'Bash', 'FastAPI'],
 			description:
 				'A production-grade 2-tier web application architecture deployed on AWS. This project features a FastAPI backend served through Nginx and Apache on EC2 instances, with secure SSL/TLS configurations and automated deployment scripts using Bash.',
 			link: {

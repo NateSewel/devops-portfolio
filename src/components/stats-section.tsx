@@ -8,7 +8,7 @@ export function StatsSection() {
 	const stats = [
 		{
 			label: 'Months Experience',
-			value: new Date().getFullYear() - 2022,
+			value: new Date().getFullYear() - 2021,
 			icon: BriefcaseIcon,
 			description: 'Professional experience'
 		},
