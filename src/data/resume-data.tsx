@@ -220,10 +220,21 @@ export const RESUME_DATA = {
 	],
 	projects: [
 		{
+			title: '',
+			techStack: ['AWS', 'KOps', 'Kubernetes', 'FastAPI', 'Python', 'Terraform', 'S3', 'GitHub Actions', 'Prometheus', 'Grafana'],
+			description:
+				'A production-grade, highly optimized, and security-hardened FastAPI application deployed on Kubernetes using KOps on AWS. The infrastructure is provisioned with Terraform and features CI/CD pipelines via GitHub Actions, along with monitoring and alerting using Prometheus and Grafana. This project showcases best practices in cloud-native application deployment, infrastructure as code, and observability.',
+			link: {
+				label: 'https://github.com/NateSewel/fastapi-kops-deployment',
+				href: 'https://github.com/NateSewel/fastapi-kops-deployment'
+			},
+			isNew: true
+		},
+		{
 			title: 'Azure CI/CD to AKS with GitOps',
 			techStack: ['AzureDevOps', 'AKS', 'GitOps'],
 			description:
-				'A complete CI/CD pipeline setup using Azure DevOps to automate the deployment of containerized applications to Azure Kubernetes Service (AKS) clusters, following GitOps principles for streamlined and reliable application delivery.',
+				'A complete CI/CD pipeline setup using Azure DevOps to automate the deployment of containerized applications to Azure Kubernetes Service (AKS) clusters, following GitOps principles for streamlined and reliable application delivery. This project demonstrates the integration of Azure DevOps with AKS, enabling continuous integration, continuous deployment, and infrastructure as code practices.',
 			link: {
 				label: 'https://github.com/NateSewel/azureci-cd-aks-gitops',
 				href: 'https://github.com/NateSewel/azureci-cd-aks-gitops'
@@ -234,7 +245,7 @@ export const RESUME_DATA = {
 			title: 'Github CI/CD pipeline for Marvin Application',
 			techStack: ['GitHub Actions', 'Docker', 'Mavin'],
 			description:
-				'A robust CI/CD pipeline using GitHub Actions to automate the build, test, and deployment processes for the Marvin application. This project focuses on containerizing the application with Docker and ensuring seamless integration and delivery through automated workflows.',
+				'A robust CI/CD pipeline using GitHub Actions to automate the build, test, and deployment processes for the Marvin application. This project focuses on containerizing the application with Docker and ensuring seamless integration and delivery through automated workflows. It highlights best practices in continuous integration and continuous deployment using GitHub Actions.',
 			link: {
 				label: 'https://github.com/NateSewel/github-action-cicd-mavin-app',
 				href: 'https://github.com/NateSewel/github-action-cicd-mavin-app'
@@ -245,7 +256,7 @@ export const RESUME_DATA = {
 			title: 'From Docker to Kubernetes',
 			techStack: ['Docker', 'Kubernetes', 'AWS'],
 			description:
-				'A hands-on project that demonstrates the journey of containerizing applications using Docker and orchestrating them with Kubernetes. This project covers building Docker images, creating Kubernetes manifests, and deploying applications to Kubernetes cluster using Kubeadm.',
+				'A hands-on project that demonstrates the journey of containerizing applications using Docker and orchestrating them with Kubernetes. This project covers building Docker images, creating Kubernetes manifests, and deploying applications to Kubernetes cluster using Kubeadm. It showcases the transition from simple containerization to complex orchestration in a cloud environment.',
 			link: {
 				label: 'github.com/NateSewel/From-Docker-to-Kubernetes',
 				href: 'https://github.com/NateSewel/aws3-tier-webapp-kubernetes'
@@ -256,7 +267,7 @@ export const RESUME_DATA = {
 			title: 'Multi-AZ VPC with public/private subnets',
 			techStack: ['Terraform', 'Github Actions', 'AWS', 'VPC', 'Linux', 'Nginx'],
 			description:
-				'A multi-AZ VPC with public/private subnets, implemented using Terraform and deployed with GitHub Actions. This project demonstrates the setup of a secure and scalable network infrastructure on AWS.',
+				'A multi-AZ VPC with public/private subnets, implemented using Terraform and deployed with GitHub Actions. This project demonstrates the setup of a secure and scalable network infrastructure on AWS. It includes the configuration of VPC, subnets, route tables, and security groups, along with the deployment of Nginx web servers in the public subnets.',
 			link: {
 				label: 'https://github.com/NateSewel/multi-az-vpc',
 				href: 'https://github.com/NateSewel/multi-az-vpc'
@@ -267,7 +278,7 @@ export const RESUME_DATA = {
 			title: 'K8s Cluster with KOps on AWS',
 			techStack: ['Terraform', 'S3', 'AWS', 'KOps', 'Kubernetes', 'Python', 'FastAPI'],
 			description:
-				'This project provisions a production-grade Kubernetes cluster using KOps on AWS and deploys a containerized FastAPI application, demonstrating infrastructure as code with Terraform and application deployment on Kubernetes.',
+				'This project provisions a production-grade Kubernetes cluster using KOps on AWS and deploys a containerized FastAPI application, demonstrating infrastructure as code with Terraform and application deployment on Kubernetes. It highlights best practices in cloud-native application deployment and infrastructure management.',
 			link: {
 				label: 'https://github.com/NateSewel/k8s-cluster-kops-aws',
 				href: 'https://github.com/NateSewel/k8s-cluster-kops-aws'
@@ -288,7 +299,7 @@ export const RESUME_DATA = {
 				'FastAPI'
 			],
 			description:
-				'A production-grade 3-tier web application architecture deployed on AWS using Terraform. This project includes a FastAPI backend, PostgreSQL database, Redis caching, and Amazon SQS for messaging, all automated through GitHub Actions.',
+				'A production-grade 3-tier web application architecture deployed on AWS using Terraform. This project includes a FastAPI backend, PostgreSQL database, Redis caching, and Amazon SQS for messaging, all automated through GitHub Actions. It showcases best practices in building scalable, reliable, and maintainable web applications in the cloud.',
 			link: {
 				label: 'https://github.com/NateSewel/ICP-9QGJ27-2026-REPO/tree/main/week-3',
 				href: 'https://github.com/NateSewel/ICP-9QGJ27-2026-REPO/tree/main/week-3'
@@ -299,7 +310,7 @@ export const RESUME_DATA = {
 			title: 'Production-grade 2-tier web application',
 			techStack: ['S3', 'AWS', 'EC2', 'Apache', 'Nginx', 'SSL/TLS', 'Bash', 'FastAPI'],
 			description:
-				'A production-grade 2-tier web application architecture deployed on AWS. This project features a FastAPI backend served through Nginx and Apache on EC2 instances, with secure SSL/TLS configurations and automated deployment scripts using Bash.',
+				'A production-grade 2-tier web application architecture deployed on AWS. This project features a FastAPI backend served through Nginx and Apache on EC2 instances, with secure SSL/TLS configurations and automated deployment scripts using Bash. It demonstrates best practices in building secure and efficient web applications in the cloud.',
 			link: {
 				label: 'https://github.com/NateSewel/2-tier-web-app',
 				href: 'https://github.com/NateSewel/2-tier-web-app'
