@@ -220,7 +220,7 @@ export const RESUME_DATA = {
 	],
 	projects: [
 		{
-			title: 'FastAPI Application Deployment on KOps Kubernetes Cluster',
+			title: 'Production-grade FastAPI on K8s with KOps',
 			techStack: ['AWS', 'KOps', 'Kubernetes', 'FastAPI', 'Python', 'Terraform', 'S3', 'GitHub Actions', 'Prometheus', 'Grafana'],
 			description:
 				'A production-grade, highly optimized, and security-hardened FastAPI application deployed on Kubernetes using KOps on AWS. The infrastructure is provisioned with Terraform and features CI/CD pipelines via GitHub Actions, along with monitoring and alerting using Prometheus and Grafana. This project showcases best practices in cloud-native application deployment, infrastructure as code, and observability.',
