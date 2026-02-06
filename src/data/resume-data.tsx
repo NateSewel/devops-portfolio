@@ -316,6 +316,17 @@ export const RESUME_DATA = {
 				href: 'https://github.com/NateSewel/2-tier-web-app'
 			},
 			isNew: true
+		},
+			{
+			title: 'Containerized 3-tier MERN application',
+			techStack: ['Docker', 'React', 'Node', 'MongoDB', 'GitBash'],
+			description:
+				'A containerized 3-tier MERN application deployed using Docker. This project demonstrates the setup of a full-stack web application with React frontend, Node.js backend, and MongoDB database, all containerized and orchestrated using Docker. It showcases best practices in building scalable and maintainable web applications in a containerized environment.',
+			link: {
+				label: 'https://github.com/NateSewel/mern-docker-app',
+				href: 'https://github.com/NateSewel/mern-docker-app'
+			},
+			isNew: true
 		}
 	]
 }
