@@ -221,7 +221,18 @@ export const RESUME_DATA = {
 	projects: [
 		{
 			title: 'Production-grade FastAPI on K8s with KOps',
-			techStack: ['AWS', 'KOps', 'Kubernetes', 'FastAPI', 'Python', 'Terraform', 'S3', 'GitHub Actions', 'Prometheus', 'Grafana'],
+			techStack: [
+				'AWS',
+				'KOps',
+				'Kubernetes',
+				'FastAPI',
+				'Python',
+				'Terraform',
+				'S3',
+				'GitHub Actions',
+				'Prometheus',
+				'Grafana'
+			],
 			description:
 				'A production-grade, highly optimized, and security-hardened FastAPI application deployed on Kubernetes using KOps on AWS. The infrastructure is provisioned with Terraform and features CI/CD pipelines via GitHub Actions, along with monitoring and alerting using Prometheus and Grafana. This project showcases best practices in cloud-native application deployment, infrastructure as code, and observability.',
 			link: {
@@ -317,7 +328,7 @@ export const RESUME_DATA = {
 			},
 			isNew: true
 		},
-			{
+		{
 			title: 'Containerized 3-tier MERN application',
 			techStack: ['Docker', 'React', 'Node', 'MongoDB', 'GitBash'],
 			description:
@@ -325,6 +336,17 @@ export const RESUME_DATA = {
 			link: {
 				label: 'https://github.com/NateSewel/mern-docker-app',
 				href: 'https://github.com/NateSewel/mern-docker-app'
+			},
+			isNew: true
+		},
+		{
+			title: 'GitHub Actions CI/CD 3-tier MERN application',
+			techStack: ['Docker', 'React', 'Node', 'MongoDB', 'GitBash', 'GitHub Actions', 'Slack', 'AWS EC2'],
+			description:
+				'Production-ready CI/CD pipeline for a full-stack MERN application, automating the entire lifecycle from commit to deployment on AWS EC2 instances. This project demonstrates the integration of Docker for containerization, GitHub Actions for CI/CD automation, and AWS EC2 for hosting the application, ensuring a seamless and efficient deployment process.',
+			link: {
+				label: 'https://github.com/NateSewel/github-action-ci-cd-pipeline-3-tier-MERN',
+				href: 'https://github.com/NateSewel/github-action-ci-cd-pipeline-3-tier-MERN'
 			},
 			isNew: true
 		}
