@@ -349,6 +349,17 @@ export const RESUME_DATA = {
 				href: 'https://github.com/NateSewel/github-action-ci-cd-pipeline-3-tier-MERN'
 			},
 			isNew: true
+		},
+			{
+			title: 'Production-grade app deployment with terraform and Kubernetes',
+			techStack: ['Docker', 'React', 'Go', 'MongoDB', 'Kubernetes', 'GitHub Actions', 'Terraform', 'AWS EC2'],
+			description:
+				'A production-grade application deployment project that utilizes Terraform for infrastructure provisioning and Kubernetes for container orchestration, managed using GitHub Actions. This project demonstrates the deployment of a full-stack movie streaming application with a React frontend, Go backend, and MongoDB database, all managed through Kubernetes clusters provisioned by Terraform. It highlights best practices in infrastructure as code and cloud-native application deployment.',
+			link: {
+				label: 'https://github.com/NateSewel/magic-stream-eks',
+				href: 'https://github.com/NateSewel/magic-stream-eks'
+			},
+			isNew: true
 		}
 	]
 }
