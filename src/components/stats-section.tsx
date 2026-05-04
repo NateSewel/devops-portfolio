@@ -6,12 +6,12 @@ import { BriefcaseIcon, GraduationCapIcon, CodeIcon, AwardIcon } from 'lucide-re
 
 export function StatsSection() {
 	const stats = [
-		{
-			label: 'Months Experience',
-			value: new Date().getFullYear() - 2021,
-			icon: BriefcaseIcon,
-			description: 'Professional experience'
-		},
+		// {
+		// 	label: 'Months Experience',
+		// 	value: new Date().getFullYear() - 2021,
+		// 	icon: BriefcaseIcon,
+		// 	description: 'Professional experience'
+		// },
 		{
 			label: 'Projects',
 			value: RESUME_DATA.projects.length,
@@ -33,7 +33,7 @@ export function StatsSection() {
 	]
 
 	return (
-		<div className='grid grid-cols-2 md:grid-cols-4 gap-4'>
+		<div className='grid grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center'>
 			{stats.map((stat, index) => {
 				const Icon = stat.icon
 				return (

@@ -3,7 +3,7 @@ import { GitHubIcon, LinkedInIcon, TelegramIcon } from '@/components/icons'
 export const RESUME_DATA = {
 	name: 'Nathaniel Isewede',
 	initials: 'NI',
-	location: 'Abuja, Nigeria',
+	location: 'Abuja, Nigeria (WAT) | Remote',
 	locationLink: 'https://www.google.com/maps/place/Abuja',
 	about:
 		'DevOps & Cloud Engineer with a software development background, passionate about automation, scalability, and building reliable infrastructure that empowers development teams.',
