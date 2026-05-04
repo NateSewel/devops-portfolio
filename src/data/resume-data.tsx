@@ -83,17 +83,35 @@ export const RESUME_DATA = {
 	],
 	work: [
 		{
+			company: 'CuraDocs',
+			link: 'https://www.curadocs.in/',
+			badges: ['Remote'],
+			jobs: [
+				{
+					title: 'DevOps Engineer',
+					start: 'Feb, 2026',
+					end: 'Present',
+					description: [
+						'Provisioned and managed Kubernetes clusters on AWS using EKS, ensuring high availability and scalability for production workloads.',
+						'Implemented infrastructure as code using Terraform, enabling consistent and repeatable deployments across multiple environments.',
+						'Automated CI/CD pipelines with GitHub Actions, reducing deployment times by 50% and improving release frequency.',
+						'Monitored and optimized application performance using Prometheus and Grafana, achieving a 30% reduction in latency and improving overall system reliability.'
+					]
+				}
+			]
+		},
+		{
 			company: 'Startup Labs & InternCareerPath',
 			link: 'https://www.startuplab.ng',
 			badges: ['Remote'],
 			jobs: [
 				{
-					title: 'DevOps Engineer',
+					title: 'DevOps Engineer Intern',
 					start: 'Sep, 2025',
-					end: 'Present',
+					end: 'Feb, 2026',
 					description: [
 						'Built 6 automated CI/CD pipelines using Azure DevOps and GitOps, and automated testing to eliminate manual deployment delays, reducing deployment time by 73% and increase release frequency from 2x weekly to daily.',
-						'Managed Kubernetes clusters (staging + production) running 2 microservices and 8 pods, maintaining 99.2% uptime across 20+ deployments.',
+						'Managed Kubernetes clusters (staging + production) running 24 microservices, and maintaining 99.2% uptime across 20+ deployments.',
 						'Optimized Docker container builds through multi-stage configurations, achieving 35% reduction in build times and standardizing containerization.',
 						'Implemented automated validation, linting, and rollback logic, achieving 98% success rate.'
 					]
